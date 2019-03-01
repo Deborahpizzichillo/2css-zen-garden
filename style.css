@@ -1,0 +1,116 @@
+
+@import url("https://fonts.googleapis.com/css?family=Rock+Salt");
+@import url("https://fonts.googleapis.com/css?family=Laila");
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body h3 {
+  font-family:'Arial Narrow', Arial, sans-serif;
+}
+
+/* Banner */
+header {
+  background: url(http://www.zenseekers.com/sites/default/files/styles/intro/public/zen_0.jpg?itok=yFNBNyuH); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  top: 0;
+}
+header h1, header h2 {
+  text-align: center;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif, cursive;
+  font-size: 60px;
+  background-color: #dcffb4;
+
+}
+header h1 {
+  top: 45%;
+  margin: 0;
+  color:#003d1c;
+  background: url(https://media-cdn.tripadvisor.com/media/photo-s/10/05/51/ea/little-stones-on-the.jpg);
+  background-size: 200px;
+
+}
+header h2 {
+  top: 60%;
+}
+
+.summary {
+  background-color: #c8f198;
+  padding: 10px 50px;
+  text-align: center
+}
+
+.preamble {
+    background-color: #f8bf7e;
+    padding-top: 50px;
+  padding-bottom: 50px;
+
+
+}
+.preamble * {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+/* Main */
+.main.supporting .explanation, .main.supporting .participation, .main.supporting .benefits, .main.supporting .requirements {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.main.supporting .explanation *, .main.supporting .participation *, .main.supporting .benefits *, .main.supporting .requirements * {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.main.supporting .explanation, .main.supporting .benefits {
+    background-color: #c8f198;
+}
+.main.supporting .participation, .main.supporting .requirements {
+  background-color: #f8bf7e;
+}
+
+/* Footer */
+footer, .sidebar {
+  background-color: rgb(15, 37, 0);
+  background: url(http://www.zenseekers.com/sites/default/files/styles/intro/public/zen_0.jpg?itok=yFNBNyuH); 
+  background-size: cover;
+  color: rgb(0, 0, 0);
+}
+footer a, .sidebar a {
+  text-decoration: none;
+  color: rgb(1, 31, 1);
+  font-weight: 200;
+}
+
+footer {
+  padding-top: 20px;
+  text-align: center;
+}
+footer a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wrapper {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.wrapper h3 {
+  padding-left: 40px;
+  text-align: center;
+}
+.wrapper ul {
+  list-style-type: none;
+  text-align: center;
+}
